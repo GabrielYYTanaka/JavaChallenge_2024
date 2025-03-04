@@ -22,7 +22,7 @@ Este projeto é uma API RESTful que fornece operações básicas de uma calculad
 
 ```bash
 git clone https://github.com/GabrielYYTanaka/JavaChallenge_2024
-cd calculator
+cd JavaChallenge_2024
 ```
 
 ### 2. Construa o projeto
