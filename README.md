@@ -23,16 +23,19 @@ Este projeto é uma API RESTful que fornece operações básicas de uma calculad
 ```bash
 git clone https://github.com/GabrielYYTanaka/JavaChallenge_2024
 cd calculator
+```
 
 ### 2. Construa o projeto
 
 ```bash
 mvn clean install
+```
 
 ### 3. Execute com Docker Compose
 
 ```bash
 docker-compose up --build
+```
 
 ### 4. Acesse a API
 
@@ -43,21 +46,25 @@ A API estará disponível em http://localhost:8080/calculator. Aqui estão os en
 ```bash
 GET /calculator/soma?a=10&b=5
 Resposta: 15
+```
 
 ### Subtração:
 
 ```bash
 GET /calculator/subtracao?a=10&b=5
 Resposta: 5
+```
 
 ### Multiplicação:
 
 ```bash
 GET /calculator/multiplicacao?a=10&b=5
 Resposta: 50
+```
 
 ### Divisão:
 
 ```bash
 GET /calculator/divisao?a=10&b=5
 Resposta: 2
+```
